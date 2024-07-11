@@ -1,4 +1,8 @@
-![Publish Github Package](https://github.com/letsfullstack/loopback-connector-postgresql/workflows/Publish%20Github%20Package/badge.svg)
+ ![Publish Github Package](https://github.com/letsfullstack/loopback-connector-postgresql/workflows/Publish%20Github%20Package/badge.svg)
+
+# Loopback PostgreSQL Connector no projeto ArboBackend
+
+Faça o NPM install desse projeto e copie a pasta para node_modules/@letscomunica/loopback-connector-postgresql ( substitua a página caso exita )
 
 # Loopback PostgreSQL Connector
 
