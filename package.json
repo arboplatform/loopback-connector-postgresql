@@ -1,5 +1,5 @@
 {
-  "name": "@letsfullstack/loopback-connector-postgresql",
+  "name": "@superlogica/loopback-connector-postgresql",
   "version": "0.1.0",
   "description": "Loopback PostgreSQL Connector",
   "engines": {
@@ -18,6 +18,10 @@
     "test": "mocha -R spec --timeout 10000 --require test/init.js test/*.test.js",
     "lint": "eslint .",
     "posttest": "npm run lint"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "dependencies": {
     "async": "^0.9.0",
@@ -38,6 +42,6 @@
     "should": "^8.0.2",
     "sinon": "^1.15.4"
   },
-  "repository": "git://github.com/letsfullstack/loopback-connector-postgresql.git",
+  "repository": "https://github.com/Superlogica/loopback-connector-postgresql.git",
   "license": "Artistic-2.0"
 }
